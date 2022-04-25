@@ -8,7 +8,7 @@ user='root',
 password = 'temp123')
 
 mycursor = con.cursor()
-sql = "INSERT INTO tblProjetoSprint VALUES (null, %s, %s)"
+sql = "INSERT INTO tblprojetosprint VALUES (null, %s, %s)"
 
 tempo_inicial = (time.time())
 
